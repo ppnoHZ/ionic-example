@@ -1,0 +1,306 @@
+body{padding-bottom: 30%;font-size: 14px;font-family: "微软雅黑";color: #717171;}
+.pad{padding: 0;}
+.fz{font-size: 1.2rem;}
+.ml2{margin-left: 2%;}
+.bordr{border-radius: 5px;}
+a{text-decoration: none;}
+img{width: 100%;}
+p{margin: 0;}
+.mp0{margin: 0;padding: 0;}
+.w100{
+	width: 100%;
+}
+.row{
+	margin: 0;
+	padding: 0;
+}
+/*head*/
+
+.head{
+	position: relative;
+	color: #fff;
+	font-size: 1.6rem;
+	width: 100%;
+	background: #e70012;
+	text-align: center;
+	height: 3.6rem;
+	line-height:3.6rem ;
+}
+.head_lefta{
+	color: #fff;
+	position: absolute;
+	left: 2%;
+	top: 1%;
+}
+.head_righta{
+    width: 21px;
+    height: 21px;
+    color: #fff;
+    position: absolute;
+    right: 2%;
+    top: 25%;
+}
+.head_righta2{
+    width: 21px;
+    height: 21px;
+    color: #fff;
+    position: absolute;
+    right: 11%;
+    top: 25%;
+}
+.head_righta3{
+    width: 21px;
+    height: 21px;
+    color: #fff;
+    position: absolute;
+    right: 20%;
+    top: 25%;
+}
+.toux{
+	padding: 10px 0;
+	width: 100%;
+	overflow: hidden;
+	border-bottom: 1px solid #f0f0f0;
+}
+.toux dt img{
+	border-radius:50% ;
+} 
+.toux dd{
+	padding:0 ;
+}
+.toux dd p{
+	padding-top: 1rem;
+	font-size: 1.6rem;	
+}
+.toux_mc{
+	padding: 1rem 0 0;
+	text-align: center;
+	line-height: 100%;
+}
+.toux_mc span{
+    display: block;
+    text-align: left;
+    font-size: 1.8rem;
+    padding: 1.4rem 0 1.4rem;
+}
+.toux_mc ul{
+	text-align: center;	
+	line-height: 2rem;
+	padding: 0;
+}
+
+/*news*/
+.news{
+	font-size: 1.4rem;
+	text-indent: 13%;
+	height: 3.6rem;
+	line-height: 3.6rem;
+	background:url(../img/67tyt.png) no-repeat 5%;
+	background-size:20px 20px;
+	border-bottom: 1px solid #F0F0F0;
+}
+.qianb{
+    font-size: 1.4rem;
+    height: 3.6rem;
+    line-height: 3.6rem;
+    background: url(../img/sanjiaoe.png) no-repeat 98%;
+    background-size: 10px;
+    border-bottom: 1px solid #F0F0F0;
+}
+.qianb span{
+	margin-left: 5%;
+}
+.qianb i{
+	margin-right: 5%;
+}
+.qianb em{
+	margin-right: 7%;
+}
+.qianb02{
+	padding-top: 0.6rem;
+	line-height: 2rem;
+	text-align: center;
+	width: 100%;
+	overflow: hidden;
+}
+.qianb02 ul{
+	padding: 0;
+}
+.geren_listli{
+	display: none;
+}
+.geren_list .dib{
+	display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:414px) {
+	.toux dt img{
+		width: 100px;
+		height: 100px;
+	}
+}
+@media screen and (max-width:375px) {
+	.toux dt img{
+		width: 90px;
+		height: 90px;
+	}
+}
+@media screen and (max-width:320px) {
+	.toux dt img{
+		margin-top: 1rem;
+		width: 76px;
+		height: 76px;
+	}	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*gtop*/
+.gtop{
+	width: 100%;
+	height: 43px;
+	background: #de5221;
+	color: #fff;
+}
+.gtop_left{	
+	display: block;
+	font-size: 1.4rem;
+	float: left;
+	color: #fff;
+	line-height: 43px;
+	margin-left: 4%;
+	
+}
+.gtop_right{
+	position: relative;
+    margin-top: 2%;
+    margin-right: 4%;
+    display: block;
+    line-height: 43px;
+    float: right
+}
+.gtop_right span{
+	color: #fff;
+	display: block;
+	position: absolute;
+    top: -51%;
+	right: -10%;
+}
+.data{
+	background: #de5221;
+	color: #fff;
+}
+
+.data_img{
+	width: 30%;
+	padding:2% 0 ;
+	display: block;
+	margin: 0 auto;
+}
+.data_img img{
+	border-radius: 50%;	
+}
+.data p{
+	  margin: 0;
+	padding:2% 0 ;	
+	font-size: 1.4rem;
+	text-align: center;
+}
+/*option*/
+.option{
+	background: #f4f4f4;
+	padding: 4% 0;
+}
+.opt_box01{
+	background: #fff;
+}
+.opt_box02{
+    background: url(../img/sanjiaoe.png) no-repeat 98%;
+    background-size: 10px 18px;
+}
+.opt_box02 img{
+	margin-right: 1%;
+	width: 6%;
+	display: inline-block;
+}
+.opt_box02 h4 a{
+	text-decoration:none ;
+	font-size: 1.6rem;	
+	 display: block;
+}
+.panel{
+	border-bottom:1px solid #ccc;
+	margin-bottom: 0;
+}
+/*foot*/
+.foot{
+	border-top: 1px solid #ccc;
+	padding: 0.6rem 0;
+	overflow: hidden;
+	position:fixed;
+	bottom: 0;
+	width: 100%;
+	background: #fafbff;
+}
+.foot .foot_img{
+	width: 24px;
+	height: 26px;
+	margin: 0 auto;
+}
+.foot_img02{
+	width: 20px;
+	height: 26px;
+	padding-bottom:0.6rem;
+	margin: 0 auto;
+}
+.foot_img02 img{
+	width: 90%;
+}
+.foot_a{
+	color: #a6a6a6;
+	padding: 0  10px;
+	text-align: center;
+}
+.foot_ac{
+	color: #a6a6a6;
+	padding: 0  10px;
+	text-align: center;
+	color: #e60115;
+}
+.foot a span{
+	padding-top:rem;
+}
+
+
+
+
+
+
+

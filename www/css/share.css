@@ -1,0 +1,201 @@
+body{padding-bottom: 30%;font-size: 14px;font-family: "微软雅黑";color: #717171;}
+.w100{width: 100%;}
+.pad{padding: 0;}
+.fz{font-size: 1.2rem;}
+.ml2{margin-left: 2%;}
+.mt2{margin-top: 2%;}
+.bordr{border-radius: 5px;}
+a{text-decoration: none;}
+img{width: 100%;}
+p{margin: 0;}
+.head{
+	overflow: hidden;
+	height: 3.6rem;
+	background: #e70012;
+}
+.head input{
+	color: #fff;
+	text-indent: 3.2rem;
+	float: left;
+	margin-left: 3%;
+    width: 94%;
+    border-radius: 5px;
+    display: block;	
+	margin-top: 0.5rem;
+    background: #ea5c68 url(../img/1.png) no-repeat 10px;
+    background-size: 20px 20px;
+    height: 2.6rem;
+}
+.nav{
+	padding: 0.5rem 0 0.8rem;
+	overflow: hidden;
+	background: #e70012;
+}
+.nav_a{
+	float: left;
+	padding: 4px 10px;
+	background: #ea5c68;
+	color: #fff;
+	border-radius:5px ;
+}
+.nav_a01{
+	float: left;
+	padding: 4px 10px;
+	background: #fff;
+	color: #ea5c68;
+	border-radius:5px ;
+}
+.mian{
+	overflow: hidden;
+}
+.mian ul{
+	padding: 0;
+}
+.mian_tou{
+	width: 100%;
+    height: 6.6rem;	
+}
+.mian_tou dt{
+	float: left;
+	margin: 1rem 0.5rem 1rem 1rem;
+	width:30%;
+}
+.mian_tou dt img{
+	border-radius: 50%;
+}
+.mian_tou dd{
+	line-height: 2.5rem;
+	display: block;
+	width: 57%;
+	float: left;
+}
+.mian_tou dd span{
+	display:block;
+	font-size: 1.5rem;
+	margin-top: 0.8rem;
+}
+.mian_tou dd b{
+	margin-left: 0.5rem;
+	position: relative;
+ 	border-radius: 10px;
+	padding: 4px 4px;
+	border: 1px solid #eb001b;
+}
+.mian_tou dd b img{
+    width: 10px;
+    position: absolute;
+    left: -9px;
+    top: 32%
+}
+.mian_h5{
+	color: #000;
+	font-size: 1.7rem;
+	text-align: center;
+	line-height: 3rem;
+	height: 3rem;
+	border-bottom: 1px solid #ccc;
+}
+.mian_btnbox{
+	padding: 1rem 0;
+	width: 100%;
+}
+.mian_btn1{
+    margin-left: 4%;
+    margin-bottom: 4%;
+    width: 12%;
+}
+.mian_btn3 {
+	width: 30%;
+	padding-left: 24px;
+	background: url(../img/btn22.png) no-repeat left;
+	background-size:18px 18px ;
+}
+.mian_btn2 {
+	margin-right: 5%;
+	width: 30%;
+	padding-left: 24px;
+	background: url(../img/btn33.png) no-repeat left;
+	background-size:18px 18px ;
+}
+.mian_list{
+	overflow: hidden;
+	background: #dddddf;
+}
+.mian_list li{
+	background: #fff;
+	border-radius: 6px;
+	overflow: hidden;
+	margin-top:5px;
+	margin-bottom: 5px;
+}
+
+
+
+/*foot*/
+.foot{
+	border-top: 1px solid #ccc;
+	padding: 0.6rem 0;
+	overflow: hidden;
+	position:fixed;
+	bottom: 0;
+	width: 100%;
+	background: #fafbff;
+}
+.foot .foot_img{
+	width: 24px;
+	height: 26px;
+	margin: 0 auto;
+}
+.foot_img02{
+	width: 20px;
+	height: 26px;
+	padding-bottom:0.6rem;
+	margin: 0 auto;
+}
+.foot_img02 img{
+	width: 90%;
+}
+.foot_a{
+	color: #a6a6a6;
+	padding: 0  10px;
+	text-align: center;
+}
+.foot_ac{
+	color: #a6a6a6;
+	padding: 0  10px;
+	text-align: center;
+	color: #e60115;
+}
+.foot a span{
+	padding-top:rem;
+}
+
+
+@media screen and (min-width: 414px) {
+	.mian_tou dt img{
+		width: 60px;
+		height: 60px;
+	}
+}
+@media screen and (min-width: 375px) {
+	.mian_tou dt img{
+		width: 60px;
+		height: 60px;
+	}
+}
+@media screen and (min-width: 320px) {
+	.mian_tou dt img{
+		width: 46px;
+		height: 46px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
