@@ -1,451 +1,418 @@
-<div class="head">
-    <a href="javascript:;" class="head_left">
+<ion-content>
+    <div class="head">
+        <a href="javascript:;" class="head_left">
 			北京&nbsp;<div class="triangle"><img src="img/2.png"/></div>
 		</a>
-    <input type="search" name="" id="" placeholder="搜索更多" />
-    <a href="javascript:;">
-        <div class="head_right02"><img src="img/1.png" /></div>
-    </a>
-</div>
-<!--End 头部-->
-<!--nav-->
-<div class="nav">
-    <a href="javascript:;" class="nav_a nav_a02 col-xs-4">附近商铺</a>
-    <a href="javascript:;" class="nav_a col-xs-4">网上商品</a>
-    <a href="javascript:;" class="nav_a col-xs-4">类群会</a>
-</div>
-<!--End nav-->
-<ul class="list">
-    <!--附近商铺-->
-    <li class="disb list_li">
-        <div class="nav02">
-            <div class="nac_center">
-                <a href="javascript:;" class="col-xs-3">
-                    <img src="img/btn_icon_nor_1.png" />
-                    <p>美食</p>
-                </a>
-                <a href="javascript:;" class="col-xs-3">
-                    <img src="img/btn_icon_nor_2.png" />
-                    <p>外卖</p>
-                </a>
-                <a href="javascript:;" class="col-xs-3">
-                    <img src="img/btn_icon_nor_3.png" />
-                    <p>西餐</p>
-                </a>
-                <a href="javascript:;" class="col-xs-3">
-                    <img src="img/btn_icon_nor_4.png" />
-                    <p>康乐</p>
-                </a>
-                <a href="javascript:;" class="col-xs-3">
-                    <img src="img/btn_icon_nor_5.png" />
-                    <p>便利店</p>
-                </a>
-                <a href="javascript:;" class="col-xs-3">
-                    <img src="img/btn_icon_nor_6.png" />
-                    <p>丽人</p>
-                </a>
-                <a href="javascript:;" class="col-xs-3">
-                    <img src="img/btn_icon_nor_7.png" />
-                    <p>学习</p>
-                </a>
-                <a href="javascript:;" class="col-xs-3">
-                    <img src="img/btn_icon_nor_8.png" />
-                    <p>玩乐</p>
-                </a>
-            </div>
-        </div>
-        <!--End nav-->
-        <!--banner-->
-        <div class="addWrap">
-            <!--<div class="swipe" id="mySwipe">
-                <div class="swipe-wrap">
-                    <div>
-                        <a href="javascript:;"><img src="img/home_1-1a.png" /></a>
-                    </div>
-                    <div>
-                        <a href="javascript:;"><img src="img/home_1-1a.png" /></a>
-                    </div>
-                    <div>
-                        <a href="javascript:;"><img src="img/home_1-1a.png" /></a>
-                    </div>
-                </div>
-            </div>
-            <ul id="position">
-                <li class="cur"></li>
-                <li></li>
-                <li></li>
-            </ul>-->
-            <ion-slide-box auto-play="true" does-continue="true" slide-interval=2000 show-pager="true">
-                <ion-slide ng-repeat="i in [5,1,2,3,4]">
-                    <div class="box">
-                        <img ng-src="./img/home_1-1a.png" class="img-responsive" />
-                    </div>
-                </ion-slide>
-            </ion-slide-box>
-        </div>
-        <!--End banner-->
-        <!--news-->
-        <div class="news">
-            <div class="new_img">
-                <img src="img/icon_1.png" />
-            </div>
-            <p class="news_p">热门推荐:</p>
-        </div>
-        <!--End news-->
-        <div class="news_mian">
-            <div class="news_content">
-                <div class="newcont_left col-xs-4">
-                    <img src="img/img01.png" />
-                </div>
-                <div class="newcont_center col-xs-8">
-                    <ul>
-                        <li>
-                            <p class="fl txt">动真格休闲主题餐厅</p>
-                            <div class="clear"></div>
-                        </li>
-                        <li>
-                            <b class="fz txt">6店通用套餐饭二选一,提供免费WIFI,免预约</b>
-                        </li>
-                        <li>
-                            <div class="news_img fl"><img src="img/icon_2_1_1.png" /></div><span class="fl" style="margin-top: 2px;">分享赚钱5元</span>
-                            <div class="clear"></div>
-                        </li>
-                        <li>
-                            <div class="news_img fl">
-                                <img src="img/4545343.png" />
-                            </div>
-                            <span class="fl txt" style="margin-top: 2px;">消费多少送多少宝币</span>
-                            <div class="clear"></div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="new_cont02">
-                <a href="javascript:;" class="col-xs-4 new_conta01">
-						对话
-					</a>
-                <a href="javscript:;" class="col-xs-4 new_conta02">		
-						9999
-					</a>
-                <a href="javascript:;" class="col-xs-4 new_conta03">
-                    <i>13.4</i>km
-                </a>
-            </div>
-        </div>
-        <!--End news-->
-        <div class="news_mian">
-            <div class="news_content">
-                <div class="newcont_left col-xs-4">
-                    <img src="img/img01.png" />
-                </div>
-                <div class="newcont_center col-xs-8">
-                    <ul>
-                        <li>
-                            <p class="fl txt">动真格休闲主题餐厅</p>
-                            <div class="clear"></div>
-                        </li>
-                        <li>
-                            <b class="fz txt">6店通用套餐饭二选一,提供免费WIFI,免预约</b>
-                        </li>
-                        <li>
-                            <div class="news_img fl"><img src="img/icon_2_1_1.png" /></div><span class="fl" style="margin-top: 2px;">分享赚钱5元</span>
-                            <div class="clear"></div>
-                        </li>
-                        <li>
-                            <div class="news_img fl">
-                                <img src="img/4545343.png" />
-                            </div>
-                            <span class="fl txt" style="margin-top: 2px;">消费多少送多少宝币</span>
-                            <div class="clear"></div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="new_cont02">
-                <a href="javascript:;" class="col-xs-4 new_conta01">
-						对话
-					</a>
-                <a href="javscript:;" class="col-xs-4 new_conta02">		
-						9999
-					</a>
-                <a href="javascript:;" class="col-xs-4 new_conta03">
-                    <i>13.4</i>km
-                </a>
-            </div>
-        </div>
-        <!--End news-->
-    </li>
-    <!--End 附近商铺-->
-    <!--网上商城-->
-    <li class="list_li">
-        <div class="list02_top">
-            <a href="javascript:;" class="col-xs-6">积分<i class="col">0</i></a>
-            <a href="javascript:;" class="col-xs-6">兑换记录</a>
-        </div>
-        <div class="list02_pro">
-            <div class=" col-xs-5 list02_pro_left">
-                <ul>
-                    <li class="txt">正品正品正品正品正品正品</li>
-                    <li>100</li>
-                    <li>1000</li>
-                </ul>
-                <div class="pro_img02">
-                    <img src="img/proimg.png" />
-                </div>
-            </div>
-            <div class="col-xs-7 list02_pro_right">
-                <a href="javascript:;">
-                    <div class="list02_rtop">
-                        <div class="" style="padding: 1rem 0.9rem;overflow: hidden;">
-                            <ul class="fl">
-                                <li class="txt">正品正品正品正品正品正品</li>
-                                <li>100</li>
-                                <li>1000</li>
-                            </ul>
-                            <div class=" fl list02_pro02">
-                                <img src="img/proimg.png" />
-                            </div>
-                        </div>
-                    </div>
-                </a>
-                <a href="javascript:;">
-                    <div class="list02_rtop list02_rtop02">
-                        <div class="" style="padding:1rem 0.9rem;overflow: hidden;">
-                            <ul class="fl">
-                                <li class="txt">正品正品正品正品正品正品</li>
-                                <li>100</li>
-                                <li>1000</li>
-                            </ul>
-                            <div class=" fl list02_pro02">
-                                <img src="img/proimg.png" />
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-        </div>
-        <!--nav02-->
-        <div class="nav02 nav023">
-            <div class="nac_center">
-                <a href="javascript:;" class="col-xs-3">
-                    <img src="img/nav1.png" />
-                    <p>户外</p>
-                </a>
-                <a href="javascript:;" class="col-xs-3">
-                    <img src="img/nav2.png" />
-                    <p>日用品</p>
-                </a>
-                <a href="javascript:;" class="col-xs-3">
-                    <img src="img/nav3.png" />
-                    <p>化妆品</p>
-                </a>
-                <a href="javascript:;" class="col-xs-3">
-                    <img src="img/nav4.png" />
-                    <p>女装</p>
-                </a>
-                <a href="javascript:;" class="col-xs-3">
-                    <img src="img/nav5.png" />
-                    <p>男装</p>
-                </a>
-                <a href="javascript:;" class="col-xs-3">
-                    <img src="img/nav6.png" />
-                    <p>首饰</p>
-                </a>
-                <a href="javascript:;" class="col-xs-3">
-                    <img src="img/nav7.png" />
-                    <p>泳装</p>
-                </a>
-                <a href="javascript:;" class="col-xs-3">
-                    <img src="img/nav8.png" />
-                    <p>女士包</p>
-                </a>
-            </div>
-        </div>
-        <!--nav02-->
-        <!-- pro -->
-        <div class="pro02">
-            <div class="pro_nav">
-                <span class="fl"></span>
-                <p class="fl">限时活动</p>
-                <span class="fl"></span>
-            </div>
-            <div class="pro02_mian">
-                <div class="pro02_mianpro pro02_mianpro1 col-xs-6">
-                    <ul>
-                        <li class="txt">正品正品正品正品</li>
-                        <li class="txt">1000000</li>
-                        <li class="txt">1000000</li>
-                    </ul>
-                    <div class="mian02_mimg">
-                        <img src="img/proo.png" />
-                    </div>
-                </div>
-                <div class="pro02_mianpro col-xs-6">
-                    <ul>
-                        <li class="txt">正品正品正品正品</li>
-                        <li class="txt">1000000</li>
-                        <li class="txt">1000000</li>
-                    </ul>
-                    <div class="mian02_mimg">
-                        <img src="img/proo.png" />
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--End pro -->
-        <div class="pro02">
-            <div class="pro_nav">
-                <span class="fl"></span>
-                <p class="fl">户外</p>
-                <span class="fl"></span>
-            </div>
-            <div class="pro02_mian">
-                <div class="pro02_mianpro pro02_mianpro1 col-xs-6">
-                    <ul>
-                        <li class="txt">正品正品正品正品</li>
-                        <li class="txt">1000000</li>
-                        <li class="txt">1000000</li>
-                    </ul>
-                    <div class="mian02_mimg">
-                        <img src="img/proo.png" />
-                    </div>
-                </div>
-                <div class="pro02_mianpro col-xs-6">
-                    <ul>
-                        <li class="txt">正品正品正品正品</li>
-                        <li class="txt">1000000</li>
-                        <li class="txt">1000000</li>
-                    </ul>
-                    <div class="mian02_mimg">
-                        <img src="img/proo.png" />
-                    </div>
-                </div>
-                <div class="pro02_mianpro pro02_mianpro1 col-xs-6">
-                    <ul>
-                        <li class="txt">正品正品正品正品</li>
-                        <li class="txt">1000000</li>
-                        <li class="txt">1000000</li>
-                    </ul>
-                    <div class="mian02_mimg">
-                        <img src="img/proo.png" />
-                    </div>
-                </div>
-                <div class="pro02_mianpro col-xs-6">
-                    <ul>
-                        <li class="txt">正品正品正品正品</li>
-                        <li class="txt">1000000</li>
-                        <li class="txt">1000000</li>
-                    </ul>
-                    <div class="mian02_mimg">
-                        <img src="img/proo.png" />
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--End pro -->
-    </li>
-    <!--End 网上商城-->
-    <!--类群会-->
-    <li class="list_li">
-        <div class="list03_nav">
-            <span></span>
-            <a href="javascript:;" class="list03_a01 list03_a02">加入的类群</a>
-            <a href="javascript:;" class="list03_a01">推荐的类群</a>
-            <div class="clear"></div>
-        </div>
-        <ul class="mian03_ul">
-            <li class="mian03_li mian03_li01">
-                <div class="list03_mian">
-                    <div class="list03_m01">
-                        <div class="col-xs-4">
-                            <img src="img/23433.png" class="bordr" />
-                        </div>
-                        <dl class="list03_m01right col-xs-8">
-                            <dt>水果群</dt>
-                            <dd>
-                                <i>2980</i><em>2890</em><a href="javascript:;" class="fr">我要 </a>
-                                <p>来这里吃最好吃的 最实惠的...</p>
-                            </dd>
-                        </dl>
-                    </div>
-                </div>
-                <div class="list03_mian">
-                    <div class="list03_m01">
-                        <div class="col-xs-4">
-                            <img src="img/23433.png" class="bordr" />
-                        </div>
-                        <dl class="list03_m01right col-xs-8">
-                            <dt>水果群</dt>
-                            <dd>
-                                <i>2980</i><em>2890</em><a href="javascript:;" class="fr">我要 </a>
-                                <p>来这里吃最好吃的 最实惠的...</p>
-                            </dd>
-                        </dl>
-                    </div>
-                </div>
-                <div class="list03_mian">
-                    <div class="list03_m01">
-                        <div class="col-xs-4">
-                            <img src="img/23433.png" class="bordr" />
-                        </div>
-                        <dl class="list03_m01right col-xs-8">
-                            <dt>水果群</dt>
-                            <dd>
-                                <i>2980</i><em>2890</em><a href="javascript:;" class="fr">我要 </a>
-                                <p>来这里吃最好吃的 最实惠的...</p>
-                            </dd>
-                        </dl>
-                    </div>
-                </div>
-            </li>
-            <li class="mian03_li  mian03_li02 toggle">
-                <div class="mian03_back">
-                    <div class="mian03_det">
-                        <img src="img/4eerer.png" />
-                        <dl class="mian03_dl">
-                            <dt>水果群</dt>
-                            <dd>
-                                <i>2980</i><em>2890</em><a href="javascript:;" class="fr">我要 </a>
-                                <p class="txt">来这里吃最好吃的 最实惠的...</p>
-                            </dd>
-                        </dl>
-                    </div>
-                    <div class="mian03_det ml2">
-                        <img src="img/4eerer.png" />
-                        <dl class="mian03_dl">
-                            <dt>水果群</dt>
-                            <dd>
-                                <i>2980</i><em>2890</em><a href="javascript:;" class="fr">我要 </a>
-                                <p class="txt">来这里吃最好吃的 最实惠的...</p>
-                            </dd>
-                        </dl>
-                    </div>
-                    <div class="mian03_det">
-                        <img src="img/4eerer.png" />
-                        <dl class="mian03_dl">
-                            <dt>水果群</dt>
-                            <dd>
-                                <i>2980</i><em>2890</em><a href="javascript:;" class="fr">我要 </a>
-                                <p class="txt">来这里吃最好吃的 最实惠的...</p>
-                            </dd>
-                        </dl>
-                    </div>
-                    <div class="mian03_det ml2">
-                        <img src="img/4eerer.png" />
-                        <dl class="mian03_dl">
-                            <dt>水果群</dt>
-                            <dd>
-                                <i>2980</i><em>2890</em><a href="javascript:;" class="fr">我要 </a>
-                                <p class="txt">来这里吃最好吃的 最实惠的...</p>
-                            </dd>
-                        </dl>
-                    </div>
-                </div>
+        <input type="search" name="" id="" placeholder="搜索更多" />
+        <a href="javascript:;">
+            <div class="head_right02"><img src="img/1.png" /></div>
+        </a>
+    </div>
 
-            </li>
-        </ul>
-        <!--mian03_ul-->
-    </li>
-    <!--End 类群会-->
-</ul>
-<!--list-->
+
+    <div class="nav">
+        <a href="javascript:;" class="nav_a nav_a02 col-xs-4">附近商铺</a>
+        <a href="javascript:;" class="nav_a col-xs-4">网上商品</a>
+        <a href="javascript:;" class="nav_a col-xs-4">类群会</a>
+    </div>
+    <!--End nav-->
+    <ul class="list">
+        <!--附近商铺-->
+        <li class="disb list_li">
+            <div class="nav02">
+                <div class="nac_center">
+                    <a href="javascript:;" class="col-xs-3">
+                        <img src="./img/btn_icon_nor_1.png" />
+                        <p>美食</p>
+                    </a>
+                    <a href="javascript:;" class="col-xs-3">
+                        <img src="./img/btn_icon_nor_2.png" />
+                        <p>外卖</p>
+                    </a>
+                    <a href="javascript:;" class="col-xs-3">
+                        <img src="./img/btn_icon_nor_3.png" />
+                        <p>西餐</p>
+                    </a>
+                    <a href="javascript:;" class="col-xs-3">
+                        <img src="./img/btn_icon_nor_4.png" />
+                        <p>康乐</p>
+                    </a>
+                    <a href="javascript:;" class="col-xs-3">
+                        <img src="./img/btn_icon_nor_5.png" />
+                        <p>便利店</p>
+                    </a>
+                    <a href="javascript:;" class="col-xs-3">
+                        <img src="./img/btn_icon_nor_6.png" />
+                        <p>丽人</p>
+                    </a>
+                    <a href="javascript:;" class="col-xs-3">
+                        <img src="./img/btn_icon_nor_7.png" />
+                        <p>学习</p>
+                    </a>
+                    <a href="javascript:;" class="col-xs-3">
+                        <img src="img/btn_icon_nor_8.png" />
+                        <p>玩乐</p>
+                    </a>
+                </div>
+            </div>
+            <!--End nav-->
+            <!--banner-->
+            <div class="addWrap">
+                <!--<div class="swipe" id="mySwipe">
+                    <div class="swipe-wrap">
+                        <div>
+                            <a href="javascript:;"><img src="img/home_1-1a.png" /></a>
+                        </div>
+                        <div>
+                            <a href="javascript:;"><img src="img/home_1-1a.png" /></a>
+                        </div>
+                        <div>
+                            <a href="javascript:;"><img src="img/home_1-1a.png" /></a>
+                        </div>
+                    </div>
+                </div>
+                <ul id="position">
+                    <li class="cur"></li>
+                    <li></li>
+                    <li></li>
+                </ul>-->
+                <div class="swipe" id="mySwipe">
+                    <div class="swipe-wrap">
+                        <ion-slide-box style="height:200px" auto-play="true" does-continue="true" slide-interval=2000 show-pager="true">
+                            <ion-slide ng-repeat="i in [1,2,3]">
+                                <div>
+                                    <a href="javascript:;"><img ng-src="./img/home_1-1a.png" /></a>
+                                </div>
+                            </ion-slide>
+                        </ion-slide-box>
+                    </div>
+                </div>
+            </div>
+
+            <!--End banner-->
+            <!--news-->
+            <div class="news">
+                <div class="new_img">
+                    <img src="./img/icon_1.png" />
+                </div>
+                <p class="news_p">热门推荐:</p>
+            </div>
+            <!--End news-->
+            <div ng-repeat="item in storeList">
+                <div class="news_mian">
+                <div class="news_content">
+                    <div class="newcont_left col-xs-4">
+                        <img src="{{item.storeImg}}" />
+                    </div>
+                    <div class="newcont_center col-xs-8">
+                        <ul>
+                            <li>
+                                <p class="fl txt">{{item.storeName}}</p>
+                                <div class="clear"></div>
+                            </li>
+                            <li>
+                                <b class="fz txt">{{item.storeDesc}}</b>
+                            </li>
+                            <li>
+                                <div class="news_img fl"><img src="{{item.shareIcon}}" /></div><span class="fl" style="margin-top: 2px;">{{item.shareDesc}}分享赚钱5元</span>
+                                <div class="clear"></div>
+                            </li>
+                            <li>
+                                <div class="news_img fl">
+                                    <img src="./img/4545343.png" />
+                                </div>
+                                <span class="fl txt" style="margin-top: 2px;">消费多少送多少宝币</span>
+                                <div class="clear"></div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="new_cont02">
+                    <a href="javascript:;" class="col-xs-4 new_conta01">
+						对话
+					</a>
+                    <a href="javscript:;" class="col-xs-4 new_conta02">		
+						{{item.clickCount}}
+					</a>
+                    <a href="javascript:;" class="col-xs-4 new_conta03">
+                        <i>13.4</i>km
+                    </a>
+                </div>
+            </div>
+            </div>
+         
+        </li>
+        <!--End 附近商铺-->
+        <!--网上商城-->
+        <li class="list_li">
+            <div class="list02_top">
+                <a href="javascript:;" class="col-xs-6">积分<i class="col">0</i></a>
+                <a href="javascript:;" class="col-xs-6">兑换记录</a>
+            </div>
+            <div class="list02_pro">
+                <div class=" col-xs-5 list02_pro_left">
+                    <ul>
+                        <li class="txt">正品正品正品正品正品正品</li>
+                        <li>100</li>
+                        <li>1000</li>
+                    </ul>
+                    <div class="pro_img02">
+                        <img src="img/proimg.png" />
+                    </div>
+                </div>
+                <div class="col-xs-7 list02_pro_right">
+                    <a href="javascript:;">
+                        <div class="list02_rtop">
+                            <div class="" style="padding: 1rem 0.9rem;overflow: hidden;">
+                                <ul class="fl">
+                                    <li class="txt">正品正品正品正品正品正品</li>
+                                    <li>100</li>
+                                    <li>1000</li>
+                                </ul>
+                                <div class=" fl list02_pro02">
+                                    <img src="img/proimg.png" />
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="javascript:;">
+                        <div class="list02_rtop list02_rtop02">
+                            <div class="" style="padding:1rem 0.9rem;overflow: hidden;">
+                                <ul class="fl">
+                                    <li class="txt">正品正品正品正品正品正品</li>
+                                    <li>100</li>
+                                    <li>1000</li>
+                                </ul>
+                                <div class=" fl list02_pro02">
+                                    <img src="img/proimg.png" />
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!--nav02-->
+            <div class="nav02 nav023">
+                <div class="nac_center">
+                    <a href="javascript:;" class="col-xs-3">
+                        <img src="img/nav1.png" />
+                        <p>户外</p>
+                    </a>
+                    <a href="javascript:;" class="col-xs-3">
+                        <img src="img/nav2.png" />
+                        <p>日用品</p>
+                    </a>
+                    <a href="javascript:;" class="col-xs-3">
+                        <img src="img/nav3.png" />
+                        <p>化妆品</p>
+                    </a>
+                    <a href="javascript:;" class="col-xs-3">
+                        <img src="img/nav4.png" />
+                        <p>女装</p>
+                    </a>
+                    <a href="javascript:;" class="col-xs-3">
+                        <img src="img/nav5.png" />
+                        <p>男装</p>
+                    </a>
+                    <a href="javascript:;" class="col-xs-3">
+                        <img src="img/nav6.png" />
+                        <p>首饰</p>
+                    </a>
+                    <a href="javascript:;" class="col-xs-3">
+                        <img src="img/nav7.png" />
+                        <p>泳装</p>
+                    </a>
+                    <a href="javascript:;" class="col-xs-3">
+                        <img src="img/nav8.png" />
+                        <p>女士包</p>
+                    </a>
+                </div>
+            </div>
+            <!--nav02-->
+            <!-- pro -->
+            <div class="pro02">
+                <div class="pro_nav">
+                    <span class="fl"></span>
+                    <p class="fl">限时活动</p>
+                    <span class="fl"></span>
+                </div>
+                <div class="pro02_mian">
+                    <div class="pro02_mianpro pro02_mianpro1 col-xs-6">
+                        <ul>
+                            <li class="txt">正品正品正品正品</li>
+                            <li class="txt">1000000</li>
+                            <li class="txt">1000000</li>
+                        </ul>
+                        <div class="mian02_mimg">
+                            <img src="img/proo.png" />
+                        </div>
+                    </div>
+                    <div class="pro02_mianpro col-xs-6">
+                        <ul>
+                            <li class="txt">正品正品正品正品</li>
+                            <li class="txt">1000000</li>
+                            <li class="txt">1000000</li>
+                        </ul>
+                        <div class="mian02_mimg">
+                            <img src="img/proo.png" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--End pro -->
+            <div class="pro02">
+                <div class="pro_nav">
+                    <span class="fl"></span>
+                    <p class="fl">户外</p>
+                    <span class="fl"></span>
+                </div>
+                <div class="pro02_mian">
+                    <div class="pro02_mianpro pro02_mianpro1 col-xs-6">
+                        <ul>
+                            <li class="txt">正品正品正品正品</li>
+                            <li class="txt">1000000</li>
+                            <li class="txt">1000000</li>
+                        </ul>
+                        <div class="mian02_mimg">
+                            <img src="img/proo.png" />
+                        </div>
+                    </div>
+                    <div class="pro02_mianpro col-xs-6">
+                        <ul>
+                            <li class="txt">正品正品正品正品</li>
+                            <li class="txt">1000000</li>
+                            <li class="txt">1000000</li>
+                        </ul>
+                        <div class="mian02_mimg">
+                            <img src="img/proo.png" />
+                        </div>
+                    </div>
+                    <div class="pro02_mianpro pro02_mianpro1 col-xs-6">
+                        <ul>
+                            <li class="txt">正品正品正品正品</li>
+                            <li class="txt">1000000</li>
+                            <li class="txt">1000000</li>
+                        </ul>
+                        <div class="mian02_mimg">
+                            <img src="img/proo.png" />
+                        </div>
+                    </div>
+                    <div class="pro02_mianpro col-xs-6">
+                        <ul>
+                            <li class="txt">正品正品正品正品</li>
+                            <li class="txt">1000000</li>
+                            <li class="txt">1000000</li>
+                        </ul>
+                        <div class="mian02_mimg">
+                            <img src="img/proo.png" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--End pro -->
+        </li>
+        <!--End 网上商城-->
+        <!--类群会-->
+        <li class="list_li">
+            <div class="list03_nav">
+                <span></span>
+                <a href="javascript:;" class="list03_a01 list03_a02">加入的类群</a>
+                <a href="javascript:;" class="list03_a01">推荐的类群</a>
+                <div class="clear"></div>
+            </div>
+            <ul class="mian03_ul">
+                <li class="mian03_li mian03_li01">
+                    <div class="list03_mian">
+                        <div class="list03_m01">
+                            <div class="col-xs-4">
+                                <img src="img/23433.png" class="bordr" />
+                            </div>
+                            <dl class="list03_m01right col-xs-8">
+                                <dt>水果群</dt>
+                                <dd>
+                                    <i>2980</i><em>2890</em><a href="javascript:;" class="fr">我要 </a>
+                                    <p>来这里吃最好吃的 最实惠的...</p>
+                                </dd>
+                            </dl>
+                        </div>
+                    </div>
+                    <div class="list03_mian">
+                        <div class="list03_m01">
+                            <div class="col-xs-4">
+                                <img src="img/23433.png" class="bordr" />
+                            </div>
+                            <dl class="list03_m01right col-xs-8">
+                                <dt>水果群</dt>
+                                <dd>
+                                    <i>2980</i><em>2890</em><a href="javascript:;" class="fr">我要 </a>
+                                    <p>来这里吃最好吃的 最实惠的...</p>
+                                </dd>
+                            </dl>
+                        </div>
+                    </div>
+                    <div class="list03_mian">
+                        <div class="list03_m01">
+                            <div class="col-xs-4">
+                                <img src="img/23433.png" class="bordr" />
+                            </div>
+                            <dl class="list03_m01right col-xs-8">
+                                <dt>水果群</dt>
+                                <dd>
+                                    <i>2980</i><em>2890</em><a href="javascript:;" class="fr">我要 </a>
+                                    <p>来这里吃最好吃的 最实惠的...</p>
+                                </dd>
+                            </dl>
+                        </div>
+                    </div>
+                </li>
+                <li class="mian03_li  mian03_li02 toggle">
+                    <div class="mian03_back">
+                        <div class="mian03_det">
+                            <img src="img/4eerer.png" />
+                            <dl class="mian03_dl">
+                                <dt>水果群</dt>
+                                <dd>
+                                    <i>2980</i><em>2890</em><a href="javascript:;" class="fr">我要 </a>
+                                    <p class="txt">来这里吃最好吃的 最实惠的...</p>
+                                </dd>
+                            </dl>
+                        </div>
+                        <div class="mian03_det ml2">
+                            <img src="img/4eerer.png" />
+                            <dl class="mian03_dl">
+                                <dt>水果群</dt>
+                                <dd>
+                                    <i>2980</i><em>2890</em><a href="javascript:;" class="fr">我要 </a>
+                                    <p class="txt">来这里吃最好吃的 最实惠的...</p>
+                                </dd>
+                            </dl>
+                        </div>
+                        <div class="mian03_det">
+                            <img src="img/4eerer.png" />
+                            <dl class="mian03_dl">
+                                <dt>水果群</dt>
+                                <dd>
+                                    <i>2980</i><em>2890</em><a href="javascript:;" class="fr">我要 </a>
+                                    <p class="txt">来这里吃最好吃的 最实惠的...</p>
+                                </dd>
+                            </dl>
+                        </div>
+                        <div class="mian03_det ml2">
+                            <img src="img/4eerer.png" />
+                            <dl class="mian03_dl">
+                                <dt>水果群</dt>
+                                <dd>
+                                    <i>2980</i><em>2890</em><a href="javascript:;" class="fr">我要 </a>
+                                    <p class="txt">来这里吃最好吃的 最实惠的...</p>
+                                </dd>
+                            </dl>
+                        </div>
+                    </div>
+
+                </li>
+            </ul>
+            <!--mian03_ul-->
+        </li>
+        <!--End 类群会-->
+    </ul>
+</ion-content>

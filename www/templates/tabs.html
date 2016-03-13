@@ -4,23 +4,25 @@
 
 <!--头部-->
 
+<div ui-view="center-content">
 
+</div>
 <footer class="foot">
     <div class="foot_center">
-        <a href="javascript:;" class="col-xs-3 foot_ac">
-            <div class="foot_img"><img src="img/tab_icon_sel_4.png" /></div>
+        <a ui-sref="tab.home" class="col-xs-3 {{action=='home'?'foot_ac':'foot_a'}}" ng-click="chang('home')">
+            <div class="foot_img"><img src="{{action=='home'?'./img/tab_icon_sel_4.png':'./img/tab_icon_nor_4.png'}}" /></div>
             <span>我要</span>
         </a>
-        <a href="hudong.html" class="col-xs-3 foot_a">
-            <div class="foot_img"><img src="img/tab_icon_nor_2.png" /></div>
+        <a ui-sref="tab.interAction" class="col-xs-3 {{action=='inter'?'foot_ac':'foot_a'}}" ng-click="chang('inter')">
+            <div class="foot_img"><img src="{{action=='inter'?'./img/tab_icon_sel_2.png':'./img/tab_icon_nor_2.png'}}" /></div>
             <span>互动</span>
         </a>
-        <a href="share.html" class="col-xs-3 foot_a">
-            <div class="foot_img"><img src="img/tab_icon_nor_3.png" /></div>
+        <a ui-sref="tab.share" class="col-xs-3 {{action=='share'?'foot_ac':'foot_a'}}" ng-click="chang('share')">
+            <div class="foot_img"><img src="{{action=='share'?'./img/tab_icon_sel_3.png':'./img/tab_icon_nor_3.png'}}" /></div>
             <span>分享</span>
         </a>
-        <a href="geren.html" class="col-xs-3 foot_a">
-            <div class="foot_img02"><img src="img/tab_icon_nor_1.png" /></div>
+        <a ui-sref="tab.me" class="col-xs-3 {{action=='me'?'foot_ac':'foot_a'}}" ng-click="chang('me')">
+            <div class="foot_img02"><img src="{{action=='me'?'./img/tab_icon_sel_1.png':'./img/tab_icon_nor_1.png'}}" /></div>
             <span>我</span>
         </a>
     </div>
